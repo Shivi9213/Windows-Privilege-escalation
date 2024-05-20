@@ -1,0 +1,33 @@
+Resources are from Hackthebox academy!
+
+One of the best places to look for privilege escalation is the processes that are running on the system. Even if a process is not running as an administrator, it may lead to additional privileges.
+The most common example is discovering a web server like "IIS" or "XAMPP" running on the box, placing an aspx/php shell on the box, and gaining a shell as the user running the web server.
+Generally, this is not an administrator but will often have the SeImpersonate token, allowing for Rogue/Juicy/Lonely Potato to provide SYSTEM permissions.
+
+
+
+
+
+
+
+Defination: 
+
+XAMPP - XAMPP, which stands for Cross-Platform, Apache, MySQL, PHP, and Perl, is a free platform that allows developers to test their code locally on their own computers. 
+This platform provides the experience of having your own mini web server at home, compatible with both Windows (WAMP) and Linux (LAMP) environments.
+
+IIS - Internet Information Services is a Microsoft web server that runs on Windows operating system and is used to exchange static and dynamic web content with internet users. 
+
+ASPX - Active Server Pages Extended and is primarily used with the Microsoft ASP.NET framework. 
+
+Php - PHP stands for Hypertext Preprocessor and is a server side scripting language commonly used for web development.
+
+SeImpersonate token - 
+
+"::1" - Loop back address for IPV6 
+
+"127.0.0.1" - Loop back address for IPV4 
+
+
+Programs: 
+
+Rogue/Juicy/Lonely Potato
